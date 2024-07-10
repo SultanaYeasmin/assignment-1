@@ -1,0 +1,156 @@
+/* common shared-style */
+.azeret-mono-original {
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+
+
+/* individual-styles */
+
+.nav-title {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 28px;
+    font-weight: bolder;
+    margin-top: 50px;
+    margin-bottom: 48px;
+    margin-left: 150px;
+}
+
+nav ul li button{
+    background-color: rgba(255, 255, 255, 0);
+    margin-right: 150px;
+    margin-bottom: 36px;
+    font-size: 20px;
+    font-weight:600px;
+    border-radius: 8px;
+    max-width: 244px;
+    padding: 17px, 24px;
+   
+}
+.banner-title{
+    font-size: 48px;
+font-weight:bolder;
+max-width: 998px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+.banner-description{
+font-size: 16px;
+max-width: 852px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.banner {
+       background-image: url(../assets/herobg.png);
+    display: block;
+    text-align: center;
+    padding-top: 26px;
+    padding-bottom:45px ;
+    }
+
+
+
+.banner-title{
+        font-size: 48px;
+    font-weight:bolder;
+    max-width: 998px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.banner-description{
+    font-size: 16px;
+    max-width: 852px;
+}
+.banner-btn{
+    font-size: 20px;
+    font-weight:600px;
+    color: white;
+    background-color: black;
+    padding: 21px, 24px, 21px, 24px;
+    width: 244px;
+    height: 65px;
+}
+
+
+
+
+
+main {
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.section-intro {
+    text-align: center;
+}
+
+.why-1,
+.why-2,
+.why-3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-1 {
+    margin-top: 74px;
+    margin-bottom: 90px;
+    max-width: 1140px;
+}
+
+.current-target {
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-description {
+    text-align: center;
+    margin-top: 151px;
+}
+
+
+
+
+.react,
+.node,
+.mongodb {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+
+.section-4 {
+    margin-top: 111px;
+    ;
+}
+
+footer {
+    margin-left: 148px;
+    margin-right: 152px;
+}
+
+.footer-details {
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 80px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-between;
+}
