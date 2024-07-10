@@ -187,7 +187,8 @@ height:47px;
     
     margin-top: 49px;
     margin-bottom: 80px;
-    background-image: url(../assets/handshake.jpg);
+    background-image:url(../assets/handshake.jpg);
+    border-radius: 16px;  
     background-position: center;
     background-repeat: no-repeat;
     padding-top: 64px;
@@ -235,10 +236,10 @@ height:47px;
     justify-content: space-around;
     padding-top: 32px;
     padding-bottom: 32px;
-    width: 1140px; 
-    gap:527px;
+    max-width: 1140px; 
+     gap:527px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;  
     
 }
 
